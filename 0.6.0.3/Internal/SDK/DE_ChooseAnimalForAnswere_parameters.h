@@ -1,0 +1,45 @@
+﻿#pragma once
+
+// Name: Medieval Dynasty, Version: 0.6.0.3
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function DE_ChooseAnimalForAnswere.DE_ChooseAnimalForAnswere_C.Change Response
+struct UDE_ChooseAnimalForAnswere_C_Change_Response_Params
+{
+	class UUI_Dialogue_C*                              UIDialogueReference;                                       // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// Function DE_ChooseAnimalForAnswere.DE_ChooseAnimalForAnswere_C.RecieveEventTriggered
+struct UDE_ChooseAnimalForAnswere_C_RecieveEventTriggered_Params
+{
+	class APlayerController*                           ConsideringPlayer;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class AActor*                                      NPCActor;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// Function DE_ChooseAnimalForAnswere.DE_ChooseAnimalForAnswere_C.ExecuteUbergraph_DE_ChooseAnimalForAnswere
+struct UDE_ChooseAnimalForAnswere_C_ExecuteUbergraph_DE_ChooseAnimalForAnswere_Params
+{
+	int                                                EntryPoint;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

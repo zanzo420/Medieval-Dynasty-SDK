@@ -1,0 +1,34 @@
+﻿#pragma once
+
+// Name: Medieval Dynasty, Version: 0.6.0.3
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Script Structs
+//---------------------------------------------------------------------------
+
+// UserDefinedStruct ST_Challenge_DeliverItems.ST_Challenge_DeliverItems
+// 0x0010
+struct FST_Challenge_DeliverItems
+{
+	TArray<struct FST_Challenge_ItemForDeliver>        Items_13_1FC63C5141565C6DFA4B1F8EFECED4BA;                 // 0x0000(0x0010) (Edit, BlueprintVisible)
+
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
